@@ -1,0 +1,30 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajasekarSribalan/MEAN_Applications.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Rajasekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajasekarSribalan/MEAN_Applications/issues"
+  },
+  "homepage": "https://github.com/RajasekarSribalan/MEAN_Applications#readme"
+}
