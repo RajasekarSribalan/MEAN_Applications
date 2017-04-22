@@ -49,7 +49,7 @@ router.post('/authenticate',(req,res,next) =>{
               expiresIn : 604800 // 1 week
           });
 
-            return res.json({success:true,token:'JWT'+token,
+            return res.json({success:true,token:'JWT '+token,
               user : {
                 id : user._id,
                 name:user.name,

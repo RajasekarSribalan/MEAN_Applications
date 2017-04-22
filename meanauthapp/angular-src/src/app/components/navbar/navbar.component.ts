@@ -24,4 +24,8 @@ export class NavbarComponent implements OnInit {
      return false;
   }
 
+  loggedIn(){
+    return this.authService.loggdIn();
+  }
+
 }
